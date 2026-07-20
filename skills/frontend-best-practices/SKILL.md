@@ -13,5 +13,6 @@ Sommaire des patterns disponibles. Chaque ligne indique quand l'appliquer.
 Lire le fichier correspondant dans `patterns/` pour le détail et l'exemple de code.
 
 - **Cartes cliquables avec actions imbriquées** — carte qui navigue au clic, contenant un bouton (like, menu…) qui doit rester cliquable indépendamment. → [patterns/clickable-card.md](patterns/clickable-card.md)
+- **`enum` pour un état simple** — statut de formulaire ou petit set de valeurs fixes, sans besoin de nombres ni d'itération runtime. → [patterns/enum-vs-const-union.md](patterns/enum-vs-const-union.md)
 
 <!-- Ajouter une ligne par nouveau pattern -->
