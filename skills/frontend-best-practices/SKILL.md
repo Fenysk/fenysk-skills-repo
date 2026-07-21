@@ -17,5 +17,7 @@ Lire le fichier correspondant dans `patterns/` pour le détail et l'exemple de c
 - **Shell plein viewport sous le header** — layout app (header + zone contenu) qui doit occuper toute la hauteur d’écran. → [patterns/full-height-app-shell.md](patterns/full-height-app-shell.md)
 - **Espace JSX + texte conditionnel** — label fixe + suffixe optionnel : éviter l’espace orphelin invisible (`white-space: normal`). → [patterns/jsx-trailing-whitespace.md](patterns/jsx-trailing-whitespace.md)
 - **Effets hors updater `setState`** — log / fetch / mutation dans un `setState(fn)` qui se double en Strict Mode (dev). → [patterns/pure-setstate-updater.md](patterns/pure-setstate-updater.md)
+- **Type domaine partagé** — item API = props carte = élément de liste ; éviter shapes dupliqués. → [patterns/shared-domain-type-props.md](patterns/shared-domain-type-props.md)
+- **Constante d’URL de base API** — base sans query ; path / query composés au call site (pas de `split('?')`). → [patterns/api-base-url-constant.md](patterns/api-base-url-constant.md)
 
 <!-- Ajouter une ligne par nouveau pattern -->
