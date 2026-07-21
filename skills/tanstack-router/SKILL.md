@@ -14,5 +14,6 @@ Lire le fichier correspondant dans `patterns/` pour le détail et l'exemple de c
 
 - **Scroll restoration par route** — `scrollRestoration: true` est global ; besoin de ne pas remonter en haut, de ne pas restaurer au retour arrière, ou de gérer une page à scroll infini. → [patterns/scroll-restoration.md](patterns/scroll-restoration.md)
 - **Ordre `loader` avant `head`** — `head` lit `loaderData` et TS dit `never` / `useLoaderData()` est `| undefined`. → [patterns/loader-before-head.md](patterns/loader-before-head.md)
+- **Meta `head` sur route enfant** — éviter charset/viewport dupliqués ; SEO (titre, image) depuis `loaderData`. → [patterns/child-route-head-meta.md](patterns/child-route-head-meta.md)
 
 <!-- Ajouter une ligne par nouveau pattern -->
