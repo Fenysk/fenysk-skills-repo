@@ -16,5 +16,6 @@ Lire le fichier correspondant dans `patterns/` pour le détail et l'exemple de c
 - **`enum` pour un état simple** — statut de formulaire ou petit set de valeurs fixes, sans besoin de nombres ni d'itération runtime. → [patterns/enum-vs-const-union.md](patterns/enum-vs-const-union.md)
 - **Shell plein viewport sous le header** — layout app (header + zone contenu) qui doit occuper toute la hauteur d’écran. → [patterns/full-height-app-shell.md](patterns/full-height-app-shell.md)
 - **Espace JSX + texte conditionnel** — label fixe + suffixe optionnel : éviter l’espace orphelin invisible (`white-space: normal`). → [patterns/jsx-trailing-whitespace.md](patterns/jsx-trailing-whitespace.md)
+- **Effets hors updater `setState`** — log / fetch / mutation dans un `setState(fn)` qui se double en Strict Mode (dev). → [patterns/pure-setstate-updater.md](patterns/pure-setstate-updater.md)
 
 <!-- Ajouter une ligne par nouveau pattern -->
