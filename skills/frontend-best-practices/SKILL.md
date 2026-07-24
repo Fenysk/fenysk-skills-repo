@@ -20,5 +20,7 @@ Lire le fichier correspondant dans `patterns/` pour le détail et l'exemple de c
 - **Type domaine partagé** — item API = props carte = élément de liste ; éviter shapes dupliqués. → [patterns/shared-domain-type-props.md](patterns/shared-domain-type-props.md)
 - **Constante d’URL de base API** — base sans query ; path / query composés au call site (pas de `split('?')`). → [patterns/api-base-url-constant.md](patterns/api-base-url-constant.md)
 - **Zod schema + façade types** — `z.infer` à côté du schema ; UI via re-export type-only, pas via `schemas`. → [patterns/zod-schema-type-facade.md](patterns/zod-schema-type-facade.md)
+- **Navigation = liste de liens** — `<nav>` de plusieurs liens, sidebar ou menu : garder `<ul>/<li>` et sortir les entrées en données. → [patterns/nav-link-list.md](patterns/nav-link-list.md)
+- **État UI → descripteur** — un statut à N valeurs qui produit N blocs JSX quasi identiques (alerte, toast, bandeau). → [patterns/status-descriptor.md](patterns/status-descriptor.md)
 
 <!-- Ajouter une ligne par nouveau pattern -->
